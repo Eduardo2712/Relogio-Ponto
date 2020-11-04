@@ -28,10 +28,7 @@ unsigned int localPort = 8888;
 time_t prevDisplay = 0;
 const int NTP_PACKET_SIZE = 48;
 byte packetBuffer[NTP_PACKET_SIZE];
-const String host = "192.168.25.181";
-/*IPAddress ip(192,168,25,175); 
-IPAddress gateway(192,168,25,1);
-IPAddress subnet(255,255,255,0);*/
+const String host = "***.***.***.***";
 const uint16_t port = 8080;
 double valor = 100;
 int p = -1;
@@ -187,7 +184,7 @@ int getFingerprintIDez()
   client.print(("GET /espget/"));
   client.print((finger.fingerID));
   client.println((" HTTP/1.0"));
-  client.println(("Host: 192.168.25.181"));
+  client.println(("Host: ***.***.***.***"));
   client.println(("Connection: close"));
   if (client.println() == 0)
   {
@@ -239,7 +236,7 @@ int getFingerprintIDez()
   client.print(("GET /esppost/"));
   client.print((idPessoa));
   client.println((" HTTP/1.0"));
-  client.println(("Host: 192.168.25.181"));
+  client.println(("Host: ***.***.***.***"));
   client.println(("Connection: close"));
   if (client.println() == 0)
   {
@@ -586,7 +583,7 @@ int cadastrarDigital(uint8_t IDgravar)
   client.print(("GET /espcad/"));
   client.print((aux));
   client.println((" HTTP/1.0"));
-  client.println(("Host: 192.168.25.181"));
+  client.println(("Host: ***.***.***.***"));
   client.println(("Connection: close"));
   if (client.println() == 0)
   {
