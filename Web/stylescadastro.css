@@ -1,0 +1,171 @@
+header {
+  color: white;
+  background-color: #ff8247;
+  box-shadow: 5px 5px 40px rgb(0, 0, 0, 0.2);
+}
+.contHeader {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 55px;
+  display: flex;
+  font-weight: 700;
+}
+.low {
+  color: #00b453;
+}
+
+.price {
+  color: #a0000f;
+}
+img {
+  width: 200px;
+  display: block;
+
+  animation: move 4s infinite;
+  position: relative;
+}
+@keyframes move {
+  0%,
+  100% {
+    margin-right: 0px;
+  }
+  50% {
+    margin-right: 50px;
+  }
+}
+.cont {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  font-family: "Merriweather Sans";
+  background-color: #a2b5cd;
+  padding: 0px;
+  margin: 0;
+}
+label {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.tudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  flex-direction: column;
+}
+h2 {
+  color: #a0000f;
+  font-size: 28px;
+}
+strong {
+  color: #00b453;
+}
+.campos {
+  margin: 30px 0px;
+  display: flex;
+  width: 380px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
+  background-color: #ff8247;
+  border-radius: 5px;
+}
+input {
+  padding: 10px 10px;
+  width: 230px;
+  margin-right: 10px;
+  font-family: "Merriweather Sans";
+  font-weight: 600;
+  color: #8b0000;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  background-color: -internal-light-dark(
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+}
+a {
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.3s;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+}
+
+a:hover {
+  color: #00b453;
+  font-weight: 700;
+}
+#cadastrar {
+  width: 100px;
+  margin: auto;
+  background-color: #00b453;
+  color: white;
+  border: 1px solid #00b453;
+  transition: all 0.3s;
+  font-weight: 200;
+}
+#cadastrar:hover {
+  width: 200px;
+  cursor: pointer;
+  border: 1px solid white;
+  font-weight: 700;
+}
+.logsenha {
+  padding: 5px 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  width: 100px;
+}
+.cad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+a {
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.3s;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+}
+
+a:hover {
+  color: #00b453;
+  font-weight: 700;
+}
+
+#en {
+  border: 1px solid #8b0000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #8b0000;
+  transition: all 0.3s;
+}
+
+#en:hover {
+  background-color: #8b0000;
+  color: white;
+}
