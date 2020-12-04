@@ -7,10 +7,10 @@ const morgan = require('morgan');
 app.use(morgan('dev'));
 
 var mysqlConnection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'bdnodemcu',
+    host: '****',
+    user: '****',
+    password: '****',
+    database: '*****',
     multipleStatements: true
 });
 
